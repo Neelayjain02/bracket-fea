@@ -1,31 +1,89 @@
-# 🧩 Mounting Bracket Design + Static FEA
+# 🔩 Mounting Bracket Design + Static FEA Simulation
 
-## 🎯 Objective
-To design a simple mechanical bracket and perform static stress analysis using ANSYS Workbench.
+> 🚀 First mechanical simulation project using CAD + FEA tools  
+> Designed, simulated, and documented by **Neelay Jain**
 
-## 🛠 Tools Used
+---
+
+## 🧠 Overview
+
+This project focuses on designing an L-shaped mechanical bracket and evaluating its structural performance under a 500N load using Finite Element Analysis in ANSYS Workbench.
+
+---
+
+## 🛠 Tools & Technologies
+
 - SolidWorks 2024
 - ANSYS Workbench
-- Material: Aluminum 6061
+- GitHub (project hosting)
 
-## 🔍 Simulation Details
-- Load: 500N applied on upper arm
-- Support: Fixed at base holes
-- Mesh: Fine mesh, tetrahedral
+---
+
+## 📐 CAD Design
+
+- 100mm × 100mm × 10mm L-bracket
+- 2 bolt holes per arm (10mm Ø)
+- Material: Aluminum 6061  
+- Fillet radius: 5mm
+
+📸 *CAD Preview:*  
+![CAD](Images/model.png)
+
+---
+
+## 🧷 Boundary Conditions
+
+- **Fixed Support**: Inner faces of base holes  
+- **Force**: 500N on upper arm holes (Z-direction)
+
+📸 *Boundary Conditions:*  
+![BCs](Images/Constraint.png)
+![BCs](Images/Force.png)
+
+---
+
+## 🧮 Mesh
+
+- Global size: 5 mm  
+- Local size at holes: 2 mm  
+- Type: Tetrahedral mesh
+
+📸 *Mesh View:*  
+![Mesh](Images/Mesh.png)
+
+---
 
 ## 📊 Results
-- Max Stress: 5.93e004 MPa
-- Deformation: 0.107 mm
-- Safety Factor: 0-15
 
-## 📎 Files
-- CAD Model (.STEP)
-- ANSYS project (.wbpz)
-- Screenshots and result images
+| Metric               | Value |
+|----------------------|-------|
+| Max Von Mises Stress | 5.93e004 MPa  
+| Max Deformation      | 0.107 mm  
+| Factor of Safety     | 0-15  
 
-## 📸 Sample Visuals
+📸 *Stress Plot:*  
 ![Stress](Images/stress.png)
 
-## 📘 Report
-See: [Bracket_Project_Report.pdf](./Report/Bracket_Project_Report.pdf)
+📸 *Deformation Plot:*  
+![Deformation](Images/Total_Deformation.png)
+
+---
+
+## 📄 Full Report
+
+→ [Download Bracket_Project_Report.pdf](Report/Bracket_Project_Report.pdf)
+
+---
+
+## 🧠 Key Learnings
+
+- FEA setup & boundary condition logic  
+- Importance of mesh refinement  
+- Full design-analysis-documentation workflow
+
+---
+
+## ✅ Status
+
+✅ Completed – July 2025  
 
