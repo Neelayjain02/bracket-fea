@@ -4,7 +4,7 @@
 To design a simple mechanical bracket and perform static stress analysis using ANSYS Workbench.
 
 ## 🛠 Tools Used
-- SolidWorks 2023
+- SolidWorks 2024
 - ANSYS Workbench
 - Material: Aluminum 6061
 
