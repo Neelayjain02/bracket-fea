@@ -27,7 +27,7 @@ This project focuses on designing an L-shaped mechanical bracket and evaluating 
 - Fillet radius: 5mm
 
 📸 *CAD Preview:*  
-![CAD](Images/model.png)
+![CAD](Images/Model.png)
 
 ---
 
@@ -65,7 +65,7 @@ This project focuses on designing an L-shaped mechanical bracket and evaluating 
 ![Stress](Images/stress.png)
 
 📸 *Deformation Plot:*  
-![Deformation](Images/Total_Deformation.png)
+![Deformation](Images/Total Deformation.png)
 
 ---
 
