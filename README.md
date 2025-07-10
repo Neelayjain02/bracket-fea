@@ -14,17 +14,17 @@ To design a simple mechanical bracket and perform static stress analysis using A
 - Mesh: Fine mesh, tetrahedral
 
 ## 📊 Results
-- Max Stress: ___ MPa
-- Deformation: ___ mm
-- Safety Factor: ___
+- Max Stress: 5.93e004 MPa
+- Deformation: 0.107 mm
+- Safety Factor: 0-15
 
 ## 📎 Files
-- CAD Model (.SLDPRT / .STEP)
+- CAD Model (.STEP)
 - ANSYS project (.wbpz)
 - Screenshots and result images
 
 ## 📸 Sample Visuals
-![Stress](Images/stress_plot.png)
+![Stress](Images/stress.jpg)
 
 ## 📘 Report
 See: [Bracket_Project_Report.pdf](./Report/Bracket_Project_Report.pdf)
