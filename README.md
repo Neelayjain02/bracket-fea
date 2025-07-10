@@ -24,7 +24,7 @@ To design a simple mechanical bracket and perform static stress analysis using A
 - Screenshots and result images
 
 ## 📸 Sample Visuals
-![Stress](Images/stress.jpg)
+![Stress](Images/stress.png)
 
 ## 📘 Report
 See: [Bracket_Project_Report.pdf](./Report/Bracket_Project_Report.pdf)
