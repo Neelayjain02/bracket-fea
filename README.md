@@ -29,5 +29,3 @@ To design a simple mechanical bracket and perform static stress analysis using A
 ## 📘 Report
 See: [Bracket_Project_Report.pdf](./Report/Bracket_Project_Report.pdf)
 
-## 📢 LinkedIn Post
-> Just finished my first FEA project — designing and simulating a mounting bracket under real-world loading using SolidWorks + ANSYS 🚀 #MechanicalEngineering #FEA #StudentPortfolio
