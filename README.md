@@ -65,7 +65,7 @@ This project focuses on designing an L-shaped mechanical bracket and evaluating 
 ![Stress](Images/stress.png)
 
 📸 *Deformation Plot:*  
-![Deformation](Images/Total Deformation.png)
+![Deformation](Images/Total_Deformation.png)
 
 ---
 
